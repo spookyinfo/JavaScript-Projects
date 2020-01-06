@@ -1,11 +1,15 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Demo</title>
-</head>
-
+<html>
 <body>
-    <script src="./JS/Demo.js"></script>
-    <p id = "Concatenate" onclick = "myFunction()">Button</p>
+<h2>This example calls a function which performs a calculation and returns the result:</h2>
+<p id="demo"></p>
+
+<script>
+  var x = myFunction(19,35);
+  document.getElementById("demo").innerHTML = x;
+  function myFunction(a,b) {
+    return a*b;
+  }
+</script>
+
 </body>
+</html>
