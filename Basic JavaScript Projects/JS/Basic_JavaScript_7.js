@@ -1,6 +1,12 @@
-function Multiply_1 () {
-    var x=10;
-    var y=20; 
-    document.write(x*y);
+
+function myFunction() {
+var color = document.getElementById("EyeColor").value;
+var text;
+ if (color == "blue"|| color == "Blue"){
+    text = "You win a tee shirt!";
+ }
+ else  {
+     text = "Sorry, no tee shirt for you.";    
+ }
+ document.getElementById("result").innerHTML = text;
 }
-Multiply_1;
