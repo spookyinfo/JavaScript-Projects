@@ -1,0 +1,26 @@
+form {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: table; 
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+label {
+    width: 285px;
+    display: inline-block;
+    text-align: right;
+}
+
+input {
+    display: table-cell;
+    text-align: center;
+    width: 500px;
+    margin: 9px;
+    padding: 8px;
+    border: solid;
+    border-width: 1px 1px;
+    border-radius: 40px;
+}
